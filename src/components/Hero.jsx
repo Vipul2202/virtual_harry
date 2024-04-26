@@ -66,13 +66,13 @@ const Hero = () => {
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
           Beyond Screens: 
           </p>
-          {/* <Typed
+          <Typed
             className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
             strings={['VR', 'Gaming', 'Adventure']}
             typeSpeed={120}
             backSpeed={140}
             loop
-          /> */}
+          />
         </div>
         {/* <p className='md:text-2xl text-xl font-bold text-gray-500 uppercase'>your premier destination for cutting-edge mULTIPLAYER virtual reality gAMES & experiences in cHANDIGARH TRICITY.</p> */}
         <div className='flex justify-center'>

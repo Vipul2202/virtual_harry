@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import civil from "../assets/civil.png";
-import { useNavigate } from 'react-router-dom';
+
 
 const Navbar = ({ navigate }) => {
   const [nav, setNav] = useState(false);

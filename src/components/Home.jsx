@@ -6,23 +6,23 @@ import Analytics from './Analytics';
 
 import Cardjs from './Cardjs';
 import Cards from './Cards';
-import ContactUs from './ContactUs';
+
 import Footer from './Footer';
 import ActiveSlider from './Newsletter';
 
 const Home = () => {
-    const nav=useNavigate();
+  const nav = useNavigate();
   return (
-  <>
-         <Navbar navigate= {nav} />
+    <>
+      <Navbar navigate={nav} />
       <Hero />
-    <Analytics />
+      <Analytics />
       <ActiveSlider />
-       <Cardjs />
+      <Cardjs />
       <Cards />
-      
-       <Footer navigate= {nav} />
-  </>
+
+      <Footer navigate={nav} />
+    </>
   )
 }
 
