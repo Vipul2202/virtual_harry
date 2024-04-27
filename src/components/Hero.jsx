@@ -63,6 +63,8 @@ const Hero = () => {
           Enter the Virtual World
         </h1>
         <div className='flex justify-center items-center bg-gradient-to-b from-green-500 to-yellow-400 text-transparent bg-clip-text fade-in-up'>
+
+          
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
           Beyond Screens: 
           </p>
@@ -71,6 +73,7 @@ const Hero = () => {
             strings={['VR', 'Gaming', 'Adventure']}
             typeSpeed={120}
             backSpeed={140}
+
             loop
           />
         </div>
