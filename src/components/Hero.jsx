@@ -1,10 +1,10 @@
-import React,{useEffect, useState,useRef} from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Typed from 'react-typed';
 import Protobacillus from "../assets/Protobacillus.gif";
 import abc from "../assets/abc.gif";
 
 import Navbar from './Navbar';
-
+import './Hero.css'; // Import your CSS file
 
 const Hero = () => {
   const scrollRef = useRef(null);
@@ -57,12 +57,12 @@ const Hero = () => {
   return (
     <div id='home' className='text-white ' style={{ backgroundImage: `url(${abc})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
    
-      <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+      <div className='w-full mt-[-96px]  h-screen mx-auto text-center flex flex-col justify-center fadeInUp'>
 
-        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 bg-gradient-to-r from-purple-700 to-teal-400 text-clip rounded-xl  '>
+        <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 text-clip rounded-xl fade-in-up font-serif'>
           Enter the Virtual World
         </h1>
-        <div className='flex justify-center items-center bg-gradient-to-b from-green-500 to-yellow-400 text-transparent bg-clip-text  '>
+        <div className='flex justify-center items-center bg-gradient-to-b from-green-500 to-yellow-400 text-transparent bg-clip-text fade-in-up'>
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
           Beyond Screens: 
           </p>
@@ -74,10 +74,9 @@ const Hero = () => {
             loop
           />
         </div>
-        {/* <p className='md:text-2xl text-xl font-bold text-gray-500 uppercase'>your premier destination for cutting-edge mULTIPLAYER virtual reality gAMES & experiences in cHANDIGARH TRICITY.</p> */}
-        <div className='flex justify-center'>
-        <button onClick={handleScrollClick}   className='bg-gradient-to-r from-pink-600 to-purple-700 px-4 font-bold text-black md:py-2 py-2 md:px-6 rounded-md transition duration-300 hover:bg-gradient-to-r hover:from-yellow-600 hover:to-red-400 hover:text-white hover:font-bold w-[200px] '>Get Started</button>
-      </div>
+        <div className='flex justify-center fade-in-up py-24'>
+          <button onClick={handleScrollClick}   className='  bg-gradient-to-r from-yellow-600 to-red-400 hover:text-white hover:font-bold w-[200px] px-4 font-bold text-black md:py-2  md:px-6 rounded-md transition duration-300 hover:bg-gradient-to-r hover:from-yellow-600 hover:to-red-400 hover:text-white hover:font-bold w-[200px] '>Get Started</button>
+        </div>
       </div>
     </div>
   );

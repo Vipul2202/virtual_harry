@@ -16,7 +16,7 @@ const Cardjs = () => {
     <div id='about' className='bg-gray-900 py-[2%] bg-gradient-to-b from-purple-900 to-red-400' >
       <div className='flex justify-center flex-col p-2'><p className='text-5xl font-bold font-serif flex justify-center bg-gradient-to-b from-purple-900 to-red-400 text-transparent bg-clip-text'>Multiplayer VR Gaming and Mystery Escape Room.  
 </p>
-<p className='font-bold font-serif flex justify-center text-2xl py-4 text-white'>Escape the reality by jumping into the modern era of Virtual Land in 7 Different heart-breathing categories.
+<p className='font-bold font-serif flex justify-center text-2xl py-4 text-white'>Escape the reality by jumping into the modern era of Virtual Land in 6 Different heart-breathing categories.
 </p></div>
     <div className="flex min-h-screen items-center justify-center  p-4">
     <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">

@@ -16,16 +16,16 @@ const Navbar = ({ navigate }) => {
   };
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white py-2 bg-black'>
+    <div className='flex justify-between items-center h-24 w-full mx-auto px-4 text-white py-2  bg-black'>
       <div className='mt-2 hidden sm:block'>
         <img className='h-auto w-44 ' src={civil} alt='logo' />
       </div>
-      <ul className='hidden md:flex font-bold text-xl bg-gray-500 rounded-md'>
-        <li onClick={() => navigate('/')} className='p-4'>Home</li>
-        <a href='#companyi'><li onClick={() => navigate("/#companyi")} className='p-4'>About</li></a>
-        <a href='#review'><li className='p-4' onClick={() => navigate('/#review')}>Reviews</li></a>
-        <a href='#about'><li className='p-4' onClick={() => navigate('/#about')}>VR Gaming</li></a>
-        <li className='p-4' onClick={() => navigate('/contact')}>Contact</li>
+      <ul className='hidden md:flex font-bold text-xl  rounded-md'>
+        <li onClick={() => navigate('/')} className='p-4 hover:text-blue-700'>Home</li>
+        <a href='#companyi'><li onClick={() => navigate("/#companyi")} className='p-4 hover:text-blue-700'>About</li></a>
+        <a href='#review'><li className='p-4 hover:text-blue-700' onClick={() => navigate('/#review')}>Reviews</li></a>
+        <a href='#about'><li className='p-4 hover:text-blue-700' onClick={() => navigate('/#about')}>VR Gaming</li></a>
+        <li className='p-4 hover:text-blue-700' onClick={() => navigate('/contact')}>Contact</li>
       </ul>
       <div>
         <button onClick={redirectToReview} className='bg-gradient-to-r from-pink-600 to-purple-700 px-4 font-bold text-black md:py-2 py-2 md:px-6 rounded-md transition duration-300 hover:bg-gradient-to-r hover:from-yellow-600 hover:to-red-400 hover:text-white hover:font-bold'>Write your Review</button>
@@ -38,10 +38,10 @@ const Navbar = ({ navigate }) => {
         <img className='h-auto w-44 ' src={civil} alt='logo' />
       </div>
         <li onClick={() => navigate('/')} className='p-4'>Home</li>
-        <a href='#companyi'><li onClick={() => navigate("/#companyi")} className='p-4'>About</li></a>
-        <a href='#review'><li className='p-4' onClick={() => navigate('/#review')}>Reviews</li></a>
-        <a href='#about'><li className='p-4' onClick={() => navigate('/#about')}>VR Gaming</li></a>
-        <li className='p-4' onClick={() => navigate('/contact')}>Contact</li>
+        <a href='#companyi'><li onClick={() => navigate("/#companyi")} className='p-4 hover:text-blue-700'>About</li></a>
+        <a href='#review'><li className='p-4 hover:text-blue-700' onClick={() => navigate('/#review')}>Reviews</li></a>
+        <a href='#about'><li className='p-4 hover:text-blue-700' onClick={() => navigate('/#about')}>VR Gaming</li></a>
+        <li className='p-4 hover:text-blue-700' onClick={() => navigate('/contact')}>Contact</li>
       </ul>
     </div>
   );
