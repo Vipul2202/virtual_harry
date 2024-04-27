@@ -14,7 +14,7 @@ import {
 const Footer = ({navigate}) => {
   const [nav, setNav] = useState(false);
   return (
-    <div className="bg-gradient-to-r from-blue-400 to-green-500 rounded-xl rounded-b-none mx-auto  px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
+    <div className="bg-gradient-to-r from-blue-400 to-green-500 rounded-xl rounded-b-none mx-auto  px-4 grid lg:grid-cols-3 gap-8 text-gray-300" navigate={nav} >
       <div className="text-black">
         <img src={hrry} alt="Logo" className="h-14 w-25 m-2" />
         <div></div>
@@ -53,7 +53,7 @@ const Footer = ({navigate}) => {
         <a href='#companyi'><li onClick={() => navigate("/#companyi")} className='p-4'>About</li></a>
         <a href='#review'><li className='p-4' onClick={() => navigate('/#review')}>Reviews</li></a>
         <a href='#about'><li className='p-4' onClick={() => navigate('/#about')}>VR Gaming</li></a>
-        <li className='p-4' onClick={() => navigate('/')}>Contact</li>
+      <a href="#harry"><li className='p-4' onClick={() => navigate('/contact')}>Contact</li></a>  
           </ul>
         </div>
         <div>

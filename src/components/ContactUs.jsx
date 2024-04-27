@@ -71,7 +71,8 @@ const ContactUs = () => {
 
   return (
     <>
-    <Navbar className="bg-purple-600"  navigate={nav} />
+    <div className="bg-black">
+    <Navbar id="harry" className="bg-purple-600"  navigate={nav} />
    
 
       <div className="flex flex-col md:flex-row justify-center items-center bg-[#100025] mt-4">
@@ -238,7 +239,9 @@ const ContactUs = () => {
 
       </div>
       <Footer navigate={nav}  />
+      </div>
     </>
+    
   );
 };
 

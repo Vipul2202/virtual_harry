@@ -7,7 +7,7 @@ const Analytics = () => {
   return (
     <div id='companyi' className='bg-white py-8 px-2 md:px-0' style={{ backgroundImage: `url(${pcte})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className='flex justify-center'>
-        <p className='flex text-5xl font-bold text-white'>About Us</p>
+        <p className='flex text-5xl font-bold text-white bg-black px-4 rounded-lg py-2'>About Us</p>
       </div>
       <div className='max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:gap-8 items-center'>
         <img className='w-full md:w-[500px] mx-auto my-4 rounded-3xl' src={v} alt='/' />
